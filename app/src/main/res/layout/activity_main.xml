@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background3">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Welcome back!"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="520dp"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        android:text="Sign In"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="->"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="112dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="600dp"
+        android:background="#b6bfb2"
+        android:orientation="vertical"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Admin"
+        android:layout_width="102dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="600dp"
+        android:background="#b6bfb2"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="170dp"
+        android:inputType="text"
+        android:text="email address" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="230dp"
+        android:inputType="text"
+        android:text="password" />
+
+</RelativeLayout>

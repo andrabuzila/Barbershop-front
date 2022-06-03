@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".UserActivity">
+
+    <RelativeLayout
+
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        tools:context=".StartPage"
+        android:background="@drawable/bgr">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/amethysta"
+            android:text="Hello User!"
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="140dp"
+            android:text="@string/user_text"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="500dp"
+            android:text="You can now order our exclusive products. Invest in your hair because you only get one first impression."
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ViewBarbers"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="240dp"
+            android:background="#b6bfb2"
+            android:orientation="vertical"
+            android:text="View barbers"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Order"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="600dp"
+            android:background="#b6bfb2"
+            android:orientation="vertical"
+            android:text="Order products"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Appointment"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="430dp"
+            android:background="#b6bfb2"
+            android:orientation="vertical"
+            android:text="Appointment"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="310dp"
+            android:fontFamily="@font/amethysta"
+            android:text="Make an appointment right away! Just remember: Life is too short to have boring hair."
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="310dp"
+            android:fontFamily="@font/amethysta"
+            android:text="Make an appointment right away! Just remember: Life is too short to have boring hair."
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="720dp"
+            android:fontFamily="@font/amethysta"
+            android:text="It's all about us making you happy! :)"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

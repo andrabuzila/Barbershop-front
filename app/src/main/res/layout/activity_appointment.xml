@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentActivity"
+    android:background="@drawable/bgr">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Choose your barber"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:text="barber's name"
+        android:textColor="@color/white"
+        android:textSize="19dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        android:text="date"
+        android:textColor="@color/white"
+        android:textSize="19dp"/>
+
+    <Button
+        android:id="@+id/Appointment1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="430dp"
+        android:background="#b6bfb2"
+        android:orientation="vertical"
+        android:text="Appointment"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

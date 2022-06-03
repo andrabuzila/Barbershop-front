@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPageActivity"
+    android:background="@drawable/bgr">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/amethysta"
+        android:textSize="30dp"
+        android:text="Hello admin!"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/ViewBarbers1"
+        android:layout_width="159dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="180dp"
+        android:background="#b6bfb2"
+        android:orientation="vertical"
+        android:text="View Barbers"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/AddBarber"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="250dp"
+        android:background="#b6bfb2"
+        android:text="Add Barber"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/DeleteBarber"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="320dp"
+        android:background="#b6bfb2"
+        android:text="Remove Barber"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Viewproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="390dp"
+        android:background="#b6bfb2"
+        android:text="View products"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Addproducts"
+        android:layout_width="158dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="460dp"
+        android:background="#b6bfb2"
+        android:text="Add product"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ViewClients"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="530dp"
+        android:background="#b6bfb2"
+        android:text="View Clients"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
